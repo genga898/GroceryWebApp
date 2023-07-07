@@ -1,4 +1,7 @@
-﻿a.navbar-brand {
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
