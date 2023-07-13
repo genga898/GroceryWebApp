@@ -7,7 +7,8 @@ public class Feedback
     public int Id { get; set; }
     [DisplayName("Email Address")]
     public string emailAddress { get; set; }
-    public string subject { get; set; }
-    public string message { get; set; }
+    public string Subject { get; set; }
+    public string Message { get; set; }
+    [DisplayName("Submitted:")]
     public DateTime created_at { get; set;}
 }
